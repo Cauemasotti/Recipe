@@ -1,0 +1,58 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: url("/imagem/image-omelette.jpeg");
+    background-size: cover;
+}
+
+.recipe-card{
+    width: 450px;
+    margin: 100px 350px 100px 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: bisque ;
+    padding: 20px;
+}
+
+.recipe-card img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+
+.recipe-card h1 {
+    color: black;
+} 
+.recipe-card h2, 
+.recipe-card h3, 
+.recipe-card h4
+ {
+    margin-bottom: 12px;
+    color: #d17a7a;
+    font-size: 22px;
+    
+}
+
+.recipe-card h5,
+.recipe-card h6
+ {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 12px;
+}
+
+.recipe-card ul
+ {
+    
+    font-size: 12px;
+}
+
+.recipe-card ul li
+ {
+    font-size: 12px;
+    list-style: disc;
+    margin-left: 15px;
+}
